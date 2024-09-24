@@ -1,3 +1,3 @@
 # gha-workflow
 
-Reusable github actions workflows
+Reusable issue templates, pull request templates and github actions workflows.

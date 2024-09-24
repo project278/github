@@ -1,0 +1,71 @@
+name: Bug Report
+description: Something not working correctly
+title: "bug-report: "
+labels: ["bug-report"]
+assignees: []
+body:
+  - type: textarea
+    id: bug-behavior
+    attributes:
+      label: Bug Behavior
+      description: Describe the bug's behavior as detailed as possible.
+      placeholder: What happened?
+    validations:
+      required: true
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: Expected Behavior
+      description: Describe how you expected the program to behave as specifical as possible.
+      placeholder: What should have happened?
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction
+      description: Describe how to reproduce the bug step-by-step as detailed as possible. Use an ordered list for this.
+      placeholder: |
+        1. I started here.
+        2. Then, I did this.
+        ...
+    validations:
+      required: true
+  - type: textarea
+    id: solution-proposal
+    attributes:
+      label: Solution Proposal
+      description: Describe the solution that you have in mind as detailed as possible, in case you know a fix.
+      placeholder: How could the bug be solved?
+  - type: textarea
+    id: impact
+    attributes:
+      label: Impact
+      description: Describe potential side effects of your solution proposal, which could cause follow-up issues, to the best of your knowledge.
+      placeholder: Could my solution proposal cause other problems?
+  - type: textarea
+    id: acceptance-criteria
+    attributes:
+      label: Acceptance Criteria
+      description: Specify the acceptance criteria as a task list that contains one or more entries.
+      placeholder: |
+        - [ ] Do this
+        - [ ] Do that
+        ...
+    validations:
+      required: true
+  - type: textarea
+    id: further-information
+    attributes:
+      label: Further Information
+      description: Add additional helpful, issue-related information, such as, links, screenshots, sketches, considerations, thoughts, etc.
+      placeholder: Helpful information
+  - type: textarea
+    id: related-issues
+    attributes:
+      label: Related Issues
+      description: Add a bullet point list of other related issues, in case there are any. In particular, the issue(s) (if you can narrow it/them down) that introduced the bug would be helpful.
+      placeholder: |
+        - #42
+        - #73
+        ...
